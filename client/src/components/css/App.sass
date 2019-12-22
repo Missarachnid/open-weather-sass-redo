@@ -1,0 +1,198 @@
+$zero: 0
+$teal: #009799
+$hund: 100%
+$cen: center
+$shad1: 1px 1px 12px 1px rgba(0, 0, 0, .3)
+$ten: 10px
+$twe: 20px
+$bg: rgba(0, 151, 153, .8)
+/*-----------Main-----------*/
+
+html 
+  position: relative
+
+body 
+  margin: $zero
+  padding: $zero
+  font-family: 'Roboto', sans-serif
+  color: white
+
+#main-bg 
+  min-height: 100vh
+  color: white
+  padding: $zero
+  background: url('../../img/hohenschwangau-bg-4.jpg') no-repeat $cen
+  background-size: cover
+  background-attachment: fixed
+  padding-bottom: 80px
+
+.row, .col-md-6 .col-sm-12 
+  padding: $zero
+  margin: $zero
+
+#alert 
+  text-align: $cen
+  font-size: 1.4em
+  background: $bg
+  margin: 0 auto
+  width: 300px
+  box-shadow: $shad1
+  p
+    padding: $ten
+
+/*-----------Header-----------*/
+
+.header 
+  color: white
+  background-color: rgba(255, 255, 255, 0.6)
+  border-bottom: solid 2px $teal
+  padding: 10px 0 $ten 0
+  margin-bottom: $twe
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2)
+
+#logo-icon 
+  font-size: 1.2em
+  color: $teal
+
+#logo-text 
+  font-size: 1.8em
+  margin-bottom: $zero
+  color: $teal
+
+#nav-container 
+  padding: $zero
+  margin: $zero
+
+#search-btn 
+  background-color: $teal
+  color: white
+  border-radius: 0 4px 4px 0
+
+#input 
+ margin-top: 6px
+
+.navbar 
+  padding: $zero
+  margin: $zero
+
+#search-input 
+  padding-left: $ten
+
+/*-----------Footer-----------*/
+
+footer 
+  position: absolute
+  bottom: $zero
+  height: 60px
+  border-top: 2px solid $teal
+  box-shadow: 0 -1px 4px 1px rgba(0, 0, 0, .2)
+  background-color: rgba(255, 255, 255, 0.7)
+  text-align: $cen
+
+.footer-link 
+  margin-top: 14px
+
+.footer-link > a 
+  font-size: 1.2em
+  color: $teal
+
+/*-----------Cards Content-----------*/
+#current,
+#details,
+#forecast,
+#forecast-toggle,
+#details-toggle 
+  color: white
+  background: rgba(0, 151, 153, .8)
+  margin-top: $twe
+  margin-bottom: $ten
+  border-radius: 2px
+  width: 300px
+  text-align: $cen
+  box-shadow: $shad1
+
+
+#forecast 
+  margin-bottom: 80px
+
+
+#unit-f, #unit-c
+  background-color: none
+  font-size: 1em
+
+.weather-icon 
+  font-size: 2em
+
+#date 
+  font-size: 14px
+
+#city 
+  margin-bottom: $zero
+  font-size: 2em
+
+#weather-text 
+  margin-bottom: $ten
+
+#current-temp 
+  font-size: 3.4em
+
+#low-high 
+  font-size: 14px
+  color: white
+
+#low-temp 
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+
+#low-temp-text 
+  margin-bottom: $zero
+  margin-top: $twe
+
+.details-seperator 
+  border: 1px ridge rgba(255, 255, 255, .3)
+  margin:  12px 0 0 0
+  padding: $zero
+
+.weather-row 
+  margin-bottom: $twe
+
+#weather 
+  font-size: 1.4em
+
+.toggle-button 
+  margin-top: 4px
+  margin-bottom: 4px
+
+.details-data 
+  margin-bottom: $zero
+
+.slot 
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+  padding-top: 12px
+
+.forecast-temp 
+  padding-top: 12px
+
+.forecast-icon 
+  padding-top: 8px
+
+.forecast-temp 
+  p
+    margin-bottom: $zero
+
+/*-----------Spinners-----------*/
+#notice 
+  position: fixed
+  top: $zero
+  left: $zero
+  z-index: 1050
+  width: $hund
+  height: $hund
+  text-align: $cen
+  background: rgba(0, 151, 153, .8)
+
+.spin 
+  margin-top: 140px
+  color: black
+  padding: 25px
+
+

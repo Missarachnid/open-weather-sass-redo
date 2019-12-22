@@ -81,7 +81,7 @@ const mapDispatchToProps = dispatch => ({
 
  class App extends React.Component {
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     //requests geolocation data, and sends request for local conditions to server
     if(navigator.geolocation){
       //start loading and reset any errors showing
