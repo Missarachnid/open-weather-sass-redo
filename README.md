@@ -14,7 +14,7 @@ I realize that weather changes by the minute, so at this time the app doesn't ca
 
 ###  This app uses the following:
 *  HTML
-*  CSS/Bootstrap
+*  CSS/SASS/Bootstrap
 *  React/ES6
 *  Redux
 *  Workbox
